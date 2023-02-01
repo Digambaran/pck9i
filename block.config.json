@@ -1,0 +1,13 @@
+{
+  "name": "pck9i",
+  "type": "ui-elements",
+  "source": {
+    "https": "https://github.com/Digambaran/pck9i",
+    "ssh": "git@github.com:Digambaran/pck9i.git"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
